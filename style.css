@@ -139,19 +139,6 @@ nav .mainMenu .closeMenu {
   }
 }
 
-@keyframes slideIn {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-.animated-element {
-  animation: slideIn 3s ease-in-out;
-}
-
 .circle {
   border-radius: 5px;
   min-width: 50px;
