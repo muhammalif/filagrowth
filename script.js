@@ -31,12 +31,3 @@ function close() {
   mainMenu.classList.add("hidden");
   mainMenu.style.top = "-200%";
 }
-
-gsap.from(".animated-element", { duration: 1, x: -100, opacity: 0 });
-
-window.addEventListener("load", function () {
-  var whatIDo = document.querySelector(".column.service h3");
-
-  // change font color
-  whatIDo.style.color = "crimson";
-});
